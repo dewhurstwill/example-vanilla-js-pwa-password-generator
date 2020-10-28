@@ -3,7 +3,7 @@ An example password generator build on vanilla JS, HTML &amp; CSS
 
 ## Deployment Steps
 
-1. 
+1. Clone the repo
 
 ```bash 
 git clone https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator.git
