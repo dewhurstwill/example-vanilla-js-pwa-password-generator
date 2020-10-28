@@ -18,25 +18,25 @@ git clone https://github.com/dewhurstwill/example-vanilla-js-pwa-password-genera
 ```
 Project Root
 |
-+-- android 
++-- [android](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/android)
 |   Android PWA Icons
-+-- chrome
++-- [chrome](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/chrome)
 |   Chrome PWA Icons
-+-- firefox
++-- [firefox](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/firefox)
 |   Firefox PWA Icons
-+-- msteams
++-- [msteams](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/msteams)
 |   Microsoft Teams PWA Icons
-+-- windows
++-- [windows](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/windows)
 |   Windows PWA Icons
-+-- windows10
++-- [windows10](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/windows10)
 |   Windows 10 Teams PWA Icons
 |
-+-- index.html
++-- [index.html](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/index.html)
 |   Structure of the app
-+-- manifest.json
++-- [manifest.json](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/manifest.json)
 |   PWA Manifest
-+-- script.js
++-- [script.js](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/script.js)
 |   Supporting code for the app
-+-- style.css
++-- [style.css](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/style.css)
 |   Styling for the app
 ```
