@@ -1,4 +1,4 @@
-# Example vanilla JS PWA Password Generator
+# Example Vanilla JS PWA Password Generator
 An example password generator build on vanilla JS, HTML &amp; CSS
 
 ## Deployment Steps
