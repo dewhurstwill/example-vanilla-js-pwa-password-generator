@@ -19,6 +19,7 @@ git clone https://github.com/dewhurstwill/example-vanilla-js-pwa-password-genera
 1. Open Safari
 2. Navigate to your url, in my example this will be [https://pass.wdew.uk](https://pass.wdew.uk)
 3. Click the button that looks like 
+
 ![this](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/blob/main/docs/images/arrow-up-inside-an-open-square.png)
 
 
