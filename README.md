@@ -18,8 +18,7 @@ git clone https://github.com/dewhurstwill/example-vanilla-js-pwa-password-genera
 
 1. Open Safari
 2. Navigate to your url, in my example this will be [https://pass.wdew.uk](https://pass.wdew.uk)
-3. Click the button that looks like 
-![this](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/blob/main/docs/images/arrow-up-inside-an-open-square.jpg)
+3. Click the button that looks like <img src="https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/blob/main/docs/images/arrow-up-inside-an-open-square.jpg" alt="arrow-up-inside-an-open-square"height: 10px; width: 10px;" />
 4. Select "Add to Home Screen"
 5. Click Add in the top right
 6. Now you can use it as if it were a native app
