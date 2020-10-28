@@ -4,6 +4,7 @@ An example password generator build on vanilla JS, HTML &amp; CSS
 
 ## File Structure
 
+```
 +-- android 
 | +-- Android PWA Icons
 +-- chrome
@@ -24,3 +25,4 @@ An example password generator build on vanilla JS, HTML &amp; CSS
 | +-- Supporting code for the app
 +-- style.css
 | +-- Styling for the app
+```
