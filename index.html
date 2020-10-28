@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Password Generator</title>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap'>
+		<link rel="stylesheet" href="style.css">
+		<link rel='manifest' href='/manifest.json'>
+		<link rel="icon" href="windows/windows-smallsquare-30-30.png" />
+		<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+		<link rel="apple-touch-icon" sizes="150x150" href="windows/windows-squarelogo-150-150.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="window/windowsphone-smalltile-170-170.png">
+		<link rel="apple-touch-icon" sizes="167x167" href="window/windowsphone-smalltile-170-170.png">	
+	</head>
+	<body>
+		<div class="container">
+			<h2 class="title">Password Generator</h2>
+			<div class="result">
+				<div class="result__title field-title">Generated Password</div>
+				<div class="result__viewbox" id="result">*  *  *  *  *  *  *</div>
+			</div>
+			<div class="length range__slider" data-min="12" data-max="64">
+				<div class="length__title field-title" data-length='0'>length:</div>
+				<input id="slider" type="range" min="12" max="64" value="16" />
+			</div>
+			<div class="settings">
+				<span class="settings__title field-title">settings</span>
+				<div class="setting">
+					<input type="checkbox" id="uppercase" checked />
+					<label for="uppercase">Include Uppercase</label>
+				</div>
+				<div class="setting">
+					<input type="checkbox" id="lowercase" checked />
+					<label for="lowercase">Include Lowercase</label>
+				</div>
+				<div class="setting">
+					<input type="checkbox" id="number" checked />
+					<label for="number">Include Numbers</label>
+				</div>
+				<div class="setting">
+					<input type="checkbox" id="symbol" checked />
+					<label for="symbol">Include Symbols</label>
+				</div>
+			</div>
+			<button class="btn generate" id="generate">Generate Password</button>
+		</div>
+		<script  src="script.js"></script>
+	</body>
+</html>
