@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" >
 	<head>
+		<!-- Metadata -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Title -->
 		<title>Password Generator</title>
+		<!-- Fonts -->
 		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap'>
+		<!-- CSS Stylesheet -->
 		<link rel="stylesheet" href="style.css">
+		<!-- PWA Manifest -->
 		<link rel='manifest' href='/manifest.json'>
+		<!-- Icons -->
 		<link rel="icon" href="windows/windows-smallsquare-30-30.png" />
 		<link rel="apple-touch-icon" href="touch-icon-iphone.png">
 		<link rel="apple-touch-icon" sizes="150x150" href="windows/windows-squarelogo-150-150.png">
@@ -14,16 +20,21 @@
 		<link rel="apple-touch-icon" sizes="167x167" href="window/windowsphone-smalltile-170-170.png">	
 	</head>
 	<body>
+		<!-- Password Generator Container -->
 		<div class="container">
+			<!-- Title -->
 			<h2 class="title">Password Generator</h2>
+			<!-- Password Output -->
 			<div class="result">
 				<div class="result__title field-title">Generated Password</div>
 				<div class="result__viewbox" id="result">*  *  *  *  *  *  *</div>
 			</div>
+			<!-- Password Length Slider -->
 			<div class="length range__slider" data-min="12" data-max="64">
 				<div class="length__title field-title" data-length='0'>length:</div>
 				<input id="slider" type="range" min="12" max="64" value="16" />
 			</div>
+			<!-- Password Settings (Case, Include Numbers/Symbols etc) -->
 			<div class="settings">
 				<span class="settings__title field-title">settings</span>
 				<div class="setting">
@@ -43,8 +54,10 @@
 					<label for="symbol">Include Symbols</label>
 				</div>
 			</div>
+			<!-- Trigger Generate Button -->
 			<button class="btn generate" id="generate">Generate Password</button>
 		</div>
+		<!-- Code to make it all work -->
 		<script  src="script.js"></script>
 	</body>
 </html>
