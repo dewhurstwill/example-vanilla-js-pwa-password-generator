@@ -24,7 +24,7 @@ git clone https://github.com/dewhurstwill/example-vanilla-js-pwa-password-genera
 
 
 4. Select "Add to Home Screen"
-5. Click Add in the top right
+5. Click "Add" in the top right
 6. Now you can use it as if it were a native app
 
 
