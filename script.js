@@ -34,7 +34,7 @@ const randomFunc = {
 	},
 };
 
-const = secureMathRandom => window.crypto.getRandomValues(new Uint32Array(1))[0] / (Math.pow(2, 32) - 1);
+const secureMathRandom = () => window.crypto.getRandomValues(new Uint32Array(1))[0] / (Math.pow(2, 64) - 1);
 
 // Get other elements by id
 const resultEl = document.getElementById("result");
