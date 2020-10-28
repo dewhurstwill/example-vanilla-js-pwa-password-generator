@@ -1,8 +1,7 @@
 # Example Vanilla JS PWA Password Generator
 An example password generator build on vanilla JS, HTML &amp; CSS
 
-## Demo
-[Demo](https://pass.wdew.uk)
+## [Demo](https://pass.wdew.uk)
 
 ## Deployment Steps
 
@@ -19,7 +18,7 @@ git clone https://github.com/dewhurstwill/example-vanilla-js-pwa-password-genera
 
 1. Open Safari
 2. Navigate to your url, in my example this will be [https://pass.wdew.uk](https://pass.wdew.uk)
-3. Click the button that looks like [this](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/tree/main/docs/images/arrow-up-inside-an-open-square.jpg)
+3. Click the button that looks like [this](https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator/blob/main/docs/images/arrow-up-inside-an-open-square.jpg)
 4. Select "Add to Home Screen"
 5. Click Add in the top right
 6. Now you can use it as if it were a native app
