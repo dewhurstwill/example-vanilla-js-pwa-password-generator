@@ -1,10 +1,23 @@
 # example-vanilla-js-pwa-password-generator
 An example password generator build on vanilla JS, HTML &amp; CSS
 
+## Deployment Steps
+
+1. 
+
+```bash 
+git clone https://github.com/dewhurstwill/example-vanilla-js-pwa-password-generator.git
+```
+
+2. Copy the files to the root of your webserver or double click index.html to run locally
+3. (Optional) If running on a webserver update start_url in manifest.json to be the URL of where the app is hosted in may case this would be https://pass.wdew.uk
+
 
 ## File Structure
 
 ```
+Project Root
+|
 +-- android 
 |   Android PWA Icons
 +-- chrome
