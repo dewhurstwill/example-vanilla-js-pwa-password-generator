@@ -1,5 +1,3 @@
-console.clear();
-
 const sliderProps = {
 	fill: "#0B1EDF",
 	background: "rgba(255, 255, 255, 0.214)",
@@ -25,41 +23,24 @@ function applyFill(slider) {
 }
 
 const randomFunc = {
-	lower: getRandomLower,
-	upper: getRandomUpper,
-	number: getRandomNumber,
-	symbol: getRandomSymbol,
+	lower: () => String.fromCharCode(Math.floor(Math.random() * 26) + 97),
+	upper: () => String.fromCharCode(Math.floor(Math.random() * 26) + 65),
+	number: () => String.fromCharCode(Math.floor(secureMathRandom() * 10) + 48),
+	symbol: () => {
+		const symbols = '~!@#$%^&*()_+{}":?><;.,';
+		return symbols[Math.floor(Math.random() * symbols.length)];
+	},
 };
 
-function secureMathRandom() {
-	return window.crypto.getRandomValues(new Uint32Array(1))[0] / (Math.pow(2, 32) - 1);
-}
-
-function getRandomLower() {
-	return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
-}
-function getRandomUpper() {
-	return String.fromCharCode(Math.floor(Math.random() * 26) + 65);
-}
-function getRandomNumber() {
-	return String.fromCharCode(Math.floor(secureMathRandom() * 10) + 48);
-}
-function getRandomSymbol() {
-	const symbols = '~!@#$%^&*()_+{}":?><;.,';
-	return symbols[Math.floor(Math.random() * symbols.length)];
-}
+const = secureMathRandom => window.crypto.getRandomValues(new Uint32Array(1))[0] / (Math.pow(2, 32) - 1);
 
 const resultEl = document.getElementById("result");
-
 const lengthEl = document.getElementById("slider");
-
 const uppercaseEl = document.getElementById("uppercase");
 const lowercaseEl = document.getElementById("lowercase");
 const numberEl = document.getElementById("number");
 const symbolEl = document.getElementById("symbol");
-
 const generateBtn = document.getElementById("generate");
-
 const resultContainer = document.querySelector(".result");
 
 let generatedPassword = false;
