@@ -62,13 +62,15 @@ window.addEventListener("resize", e => {
 
 // Copies Password when user clicks Result Div
 resultEl.addEventListener("click", () => {
-	let selection = window.getSelection();
-	let range = document.createRange();
-	range.selectNodeContents(resultEl);
-	selection.removeAllRanges();
-	selection.addRange(range);
-	document.execCommand("Copy");
-	alert("Password Copied.");
+		if(document.getElementById("result").innerText !== "* * * * * * *"){
+			let selection = window.getSelection();
+			let range = document.createRange();
+			range.selectNodeContents(resultEl);
+			selection.removeAllRanges();
+			selection.addRange(range);
+			document.execCommand("Copy");
+			alert("Password Copied.");
+		}
 });
 
 // Has the user clicked the generate button
