@@ -68,7 +68,7 @@ resultEl.addEventListener("click", () => {
 	selection.removeAllRanges();
 	selection.addRange(range);
 	document.execCommand("Copy");
-	alert("Password Copied.")
+	alert("Password Copied.");
 });
 
 // Has the user clicked the generate button
