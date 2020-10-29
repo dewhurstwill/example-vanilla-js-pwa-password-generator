@@ -1,6 +1,14 @@
 # Example Vanilla JS PWA Password Generator 🔐
 An example password generator build on vanilla JS, HTML &amp; CSS
 
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_example-vanilla-js-pwa-password-generator&metric=ncloc)](https://sonarcloud.io/dashboard?id=dewhurstwill_example-vanilla-js-pwa-password-generator)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_example-vanilla-js-pwa-password-generator&metric=bugs)](https://sonarcloud.io/dashboard?id=dewhurstwill_example-vanilla-js-pwa-password-generator)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_example-vanilla-js-pwa-password-generator&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=dewhurstwill_example-vanilla-js-pwa-password-generator)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_example-vanilla-js-pwa-password-generator&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=dewhurstwill_example-vanilla-js-pwa-password-generator)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_example-vanilla-js-pwa-password-generator&metric=security_rating)](https://sonarcloud.io/dashboard?id=dewhurstwill_example-vanilla-js-pwa-password-generator)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_example-vanilla-js-pwa-password-generator&metric=sqale_index)](https://sonarcloud.io/dashboard?id=dewhurstwill_example-vanilla-js-pwa-password-generator)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dewhurstwill_example-vanilla-js-pwa-password-generator&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=dewhurstwill_example-vanilla-js-pwa-password-generator)
+
 ## [Demo](https://pass.wdew.uk) 💻
 
 ## Deployment Steps 🖥
