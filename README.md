@@ -35,6 +35,13 @@ git clone https://github.com/dewhurstwill/example-vanilla-js-pwa-password-genera
 5. Click "Add" in the top right
 6. Now you can use it as if it were a native app
 
+## PWA Usage (Android)
+
+1. On your Android device, open Chrome.
+2. Navigate to your url, in my example this will be [https://pass.wdew.uk](https://pass.wdew.uk)
+3. Click the 3 dot menu
+4. Tap Add to home screen.
+5. Now you can use it as if it were a native app
 
 ## File Structure 📂
 
